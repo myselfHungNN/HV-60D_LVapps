@@ -58,7 +58,7 @@
 			<Item Name="Test Switches Module API.vi" Type="VI" URL="../Libraries/Switches Module/Test Switches Module API.vi"/>
 			<Item Name="Test CE14 eMIC module API.vi" Type="VI" URL="../Libraries/CE14 eMIC module/Test CE14 eMIC module API.vi"/>
 		</Item>
-		<Item Name="Modules" Type="Folder">
+		<Item Name="DQMH Modules" Type="Folder">
 			<Item Name="Switches Module.lvlib" Type="Library" URL="../Libraries/Switches Module/Switches Module.lvlib"/>
 			<Item Name="CE14 eMIC module.lvlib" Type="Library" URL="../Libraries/CE14 eMIC module/CE14 eMIC module.lvlib"/>
 		</Item>

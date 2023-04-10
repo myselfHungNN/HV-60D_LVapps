@@ -24,7 +24,7 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Read Counter Argument--cluster.ctl" Type="VI" URL="../Read Counter Argument--cluster.ctl"/>
 				<Item Name="Read Counter (Reply Payload)--cluster.ctl" Type="VI" URL="../Read Counter (Reply Payload)--cluster.ctl"/>
-				<Item Name="Open COM Argument--cluster.ctl" Type="VI" URL="../Open COM Argument--cluster.ctl"/>
+				<Item Name="inst.Open Argument--cluster.ctl" Type="VI" URL="../inst.Open Argument--cluster.ctl"/>
 				<Item Name="Close COM Argument--cluster.ctl" Type="VI" URL="../Close COM Argument--cluster.ctl"/>
 				<Item Name="inst.Relay_01 Argument--cluster.ctl" Type="VI" URL="../inst.Relay_01 Argument--cluster.ctl"/>
 				<Item Name="demux1_10 Argument--cluster.ctl" Type="VI" URL="../demux1_10 Argument--cluster.ctl"/>
@@ -49,7 +49,7 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Read Counter.vi" Type="VI" URL="../Read Counter.vi"/>
-			<Item Name="Open COM.vi" Type="VI" URL="../Open COM.vi"/>
+			<Item Name="inst.Open.vi" Type="VI" URL="../inst.Open.vi"/>
 			<Item Name="Close COM.vi" Type="VI" URL="../Close COM.vi"/>
 			<Item Name="inst.Relay_01.vi" Type="VI" URL="../inst.Relay_01.vi"/>
 			<Item Name="demux1_10.vi" Type="VI" URL="../demux1_10.vi"/>
