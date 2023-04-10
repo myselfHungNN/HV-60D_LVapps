@@ -36,6 +36,7 @@
 		<Item Name="inst.SpareRelay.vi" Type="VI" URL="../publics/inst.SpareRelay.vi"/>
 	</Item>
 	<Item Name="testers" Type="Folder">
+		<Item Name="Turn a single relay ON_OFF.vi" Type="VI" URL="../Turn a single relay ON_OFF.vi"/>
 		<Item Name="MB demo test_v2.vi" Type="VI" URL="../examples/MB demo test_v2.vi"/>
 	</Item>
 </Library>

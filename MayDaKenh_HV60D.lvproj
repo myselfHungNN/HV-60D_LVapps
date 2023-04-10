@@ -186,7 +186,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="inst.mu6_1(3wires) Argument--cluster.ctl" Type="VI" URL="../Libraries/CE14 eMIC module/inst.mu6_1(3wires) Argument--cluster.ctl"/>
 			<Item Name="inst.mu6_1(3wires).vi" Type="VI" URL="../Libraries/CE14 eMIC module/inst.mu6_1(3wires).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
