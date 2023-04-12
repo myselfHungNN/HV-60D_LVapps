@@ -15,8 +15,10 @@
 		<Item Name="MB_relay_01_encode.vi" Type="VI" URL="../MB_relay_01_encode.vi"/>
 		<Item Name="MB_Relay_01_separated.vi" Type="VI" URL="../MB_Relay_01_separated.vi"/>
 		<Item Name="mux2-1(DMM I)_encode.vi" Type="VI" URL="../mux2-1(DMM I)_encode.vi"/>
+		<Item Name="5V enable_encode.vi" Type="VI" URL="../5V enable_encode.vi"/>
 		<Item Name="mux2_1(DMM I)_separated.vi" Type="VI" URL="../mux2_1(DMM I)_separated.vi"/>
 		<Item Name="mux6-1(3wires)_encode.vi" Type="VI" URL="../mux6-1(3wires)_encode.vi"/>
+		<Item Name="5V enable_separated.vi" Type="VI" URL="../5V enable_separated.vi"/>
 		<Item Name="mux6_1(3 wires)_separated.vi" Type="VI" URL="../mux6_1(3 wires)_separated.vi"/>
 		<Item Name="mux10_1(x6)_encode.vi" Type="VI" URL="../mux10_1(x6)_encode.vi"/>
 		<Item Name="mux10_1(x6)_separated.vi" Type="VI" URL="../mux10_1(x6)_separated.vi"/>
@@ -25,6 +27,7 @@
 	</Item>
 	<Item Name="public" Type="Folder">
 		<Item Name="FGV_HoldingRegs.vi" Type="VI" URL="../FGV_HoldingRegs.vi"/>
+		<Item Name="inst.5V enable.vi" Type="VI" URL="../publics/inst.5V enable.vi"/>
 		<Item Name="inst.counter.vi" Type="VI" URL="../publics/inst.counter.vi"/>
 		<Item Name="inst.demux1.10(x6).vi" Type="VI" URL="../publics/inst.demux1.10(x6).vi"/>
 		<Item Name="inst.MB Relay01.vi" Type="VI" URL="../publics/inst.MB Relay01.vi"/>
