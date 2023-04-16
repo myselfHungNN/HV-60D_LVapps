@@ -27,9 +27,8 @@
 				<Item Name="inst.Open Argument--cluster.ctl" Type="VI" URL="../inst.Open Argument--cluster.ctl"/>
 				<Item Name="Close COM Argument--cluster.ctl" Type="VI" URL="../Close COM Argument--cluster.ctl"/>
 				<Item Name="inst.Relay_01 Argument--cluster.ctl" Type="VI" URL="../inst.Relay_01 Argument--cluster.ctl"/>
-				<Item Name="demux1_10 Argument--cluster.ctl" Type="VI" URL="../demux1_10 Argument--cluster.ctl"/>
-				<Item Name="Read Optos Argument--cluster.ctl" Type="VI" URL="../Read Optos Argument--cluster.ctl"/>
-				<Item Name="Read Optos (Reply Payload)--cluster.ctl" Type="VI" URL="../Read Optos (Reply Payload)--cluster.ctl"/>
+				<Item Name="inst.Optos Argument--cluster.ctl" Type="VI" URL="../inst.Optos Argument--cluster.ctl"/>
+				<Item Name="inst.Optos (Reply Payload)--cluster.ctl" Type="VI" URL="../inst.Optos (Reply Payload)--cluster.ctl"/>
 				<Item Name="inst.mux10_1 Argument--cluster.ctl" Type="VI" URL="../inst.mux10_1 Argument--cluster.ctl"/>
 				<Item Name="inst.mux6_1(3wires) Argument--cluster.ctl" Type="VI" URL="../inst.mux6_1(3wires) Argument--cluster.ctl"/>
 			</Item>
@@ -52,8 +51,7 @@
 			<Item Name="inst.Open.vi" Type="VI" URL="../inst.Open.vi"/>
 			<Item Name="Close COM.vi" Type="VI" URL="../Close COM.vi"/>
 			<Item Name="inst.Relay_01.vi" Type="VI" URL="../inst.Relay_01.vi"/>
-			<Item Name="demux1_10.vi" Type="VI" URL="../demux1_10.vi"/>
-			<Item Name="Read Optos.vi" Type="VI" URL="../Read Optos.vi"/>
+			<Item Name="inst.Optos.vi" Type="VI" URL="../inst.Optos.vi"/>
 			<Item Name="inst.mux10_1.vi" Type="VI" URL="../inst.mux10_1.vi"/>
 			<Item Name="inst.mux6_1(3wires).vi" Type="VI" URL="../inst.mux6_1(3wires).vi"/>
 		</Item>
