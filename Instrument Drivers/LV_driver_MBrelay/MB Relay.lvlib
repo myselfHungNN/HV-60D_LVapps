@@ -24,6 +24,7 @@
 		<Item Name="mux10_1(x6)_separated.vi" Type="VI" URL="../mux10_1(x6)_separated.vi"/>
 		<Item Name="SpareRelay_encode.vi" Type="VI" URL="../SpareRelay_encode.vi"/>
 		<Item Name="SpareRelay_separated.vi" Type="VI" URL="../SpareRelay_separated.vi"/>
+		<Item Name="optos_indexing.vi" Type="VI" URL="../optos_indexing.vi"/>
 	</Item>
 	<Item Name="public" Type="Folder">
 		<Item Name="FGV_HoldingRegs.vi" Type="VI" URL="../FGV_HoldingRegs.vi"/>
