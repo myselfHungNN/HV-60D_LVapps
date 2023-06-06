@@ -56,13 +56,32 @@
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Switches Module API.vi" Type="VI" URL="../Libraries/Switches Module/Test Switches Module API.vi"/>
+			<Item Name="Test MB 01 switches Module API.vi" Type="VI" URL="../Libraries/MB 01 switches Module/Test MB 01 switches Module API.vi"/>
 			<Item Name="Test CE14 eMIC module API.vi" Type="VI" URL="../Libraries/CE14 eMIC module/Test CE14 eMIC module API.vi"/>
+			<Item Name="Test DMM Module API.vi" Type="VI" URL="../Libraries/DMM Module/Test DMM Module API.vi"/>
 		</Item>
 		<Item Name="DQMH Modules" Type="Folder">
-			<Item Name="Switches Module.lvlib" Type="Library" URL="../Libraries/Switches Module/Switches Module.lvlib"/>
-			<Item Name="CE14 eMIC module.lvlib" Type="Library" URL="../Libraries/CE14 eMIC module/CE14 eMIC module.lvlib"/>
+			<Item Name="DMM Module Module" Type="Folder">
+				<Item Name="DMM Module.lvlib" Type="Library" URL="../Libraries/DMM Module/DMM Module.lvlib"/>
+			</Item>
+			<Item Name="MB01 switches Module" Type="Folder">
+				<Item Name="MB 01 switches Module.lvlib" Type="Library" URL="../Libraries/MB 01 switches Module/MB 01 switches Module.lvlib"/>
+			</Item>
+			<Item Name="MB switches Module" Type="Folder">
+				<Item Name="MB switches Module.lvlib" Type="Library" URL="../Libraries/Switches Module/MB switches Module.lvlib"/>
+			</Item>
+			<Item Name="CE14 eMIC module" Type="Folder">
+				<Item Name="CE14 eMIC module.lvlib" Type="Library" URL="../Libraries/CE14 eMIC module/CE14 eMIC module.lvlib"/>
+			</Item>
 		</Item>
 		<Item Name="instruments_LVdriver" Type="Folder">
+			<Item Name="ConfigINI" Type="Folder">
+				<Item Name="HV-60D.INI" Type="Document" URL="../HV-60D.INI"/>
+				<Item Name="Test INI file.vi" Type="VI" URL="../Libraries/Application/SubVIs/Test INI file.vi"/>
+			</Item>
+			<Item Name="arduino_MB" Type="Folder">
+				<Item Name="Tester.vi" Type="VI" URL="../Instrument Drivers/LVdriver_74HC595N/Tester.vi"/>
+			</Item>
 			<Item Name="MB Relay.lvlib" Type="Library" URL="../Instrument Drivers/LV_driver_MBrelay/MB Relay.lvlib"/>
 			<Item Name="CE14_eMIC.lvlib" Type="Library" URL="../Instrument Drivers/LVdriver_CE14(eMIC)/CE14_eMIC.lvlib"/>
 		</Item>
@@ -179,6 +198,14 @@
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+			</Item>
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="DMM4.lvlib" Type="Library" URL="/&lt;instrlib&gt;/DMM4/DMM4.lvlib"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -186,6 +213,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Do Something Argument--cluster.ctl" Type="VI" URL="../Libraries/Switches Module/Do Something Argument--cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Application" Type="EXE">

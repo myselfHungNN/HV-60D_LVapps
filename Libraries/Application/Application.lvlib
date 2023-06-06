@@ -11,13 +11,15 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Application Name--constant.vi" Type="VI" URL="../Application Name--constant.vi"/>
 	</Item>
-	<Item Name="subVIS" Type="Folder">
+	<Item Name="subVIs" Type="Folder">
 		<Item Name="Test COMport Name.vi" Type="VI" URL="../SubVIs/Test COMport Name.vi"/>
 	</Item>
 	<Item Name="Type Definitions" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Application Data--cluster.ctl" Type="VI" URL="../Application Data--cluster.ctl"/>
+		<Item Name="DRV cluster.ctl" Type="VI" URL="../DRV cluster.ctl"/>
 		<Item Name="State--enum.ctl" Type="VI" URL="../State--enum.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+	<Item Name="timing structure.vi" Type="VI" URL="../timing structure.vi"/>
 </Library>

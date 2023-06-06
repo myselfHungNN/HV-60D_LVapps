@@ -24,11 +24,13 @@
 				<Item Name="Get Module Execution Status Argument--cluster.ctl" Type="VI" URL="../Get Module Execution Status Argument--cluster.ctl"/>
 				<Item Name="Open&amp;shakehand eMICs Argument--cluster.ctl" Type="VI" URL="../Open&amp;shakehand eMICs Argument--cluster.ctl"/>
 				<Item Name="Open&amp;shakehand eMICs (Reply Payload)--cluster.ctl" Type="VI" URL="../Open&amp;shakehand eMICs (Reply Payload)--cluster.ctl"/>
+				<Item Name="Read ACV, ACI, PF, KW Argument--cluster.ctl" Type="VI" URL="../Read ACV, ACI, PF, KW Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="emic response Argument--cluster.ctl" Type="VI" URL="../emic response Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -40,6 +42,7 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Open&amp;shakehand eMICs.vi" Type="VI" URL="../Open&amp;shakehand eMICs.vi"/>
+			<Item Name="Read ACV, ACI, PF, KW.vi" Type="VI" URL="../Read ACV, ACI, PF, KW.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -57,6 +60,7 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="emic response.vi" Type="VI" URL="../emic response.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

@@ -8,6 +8,7 @@
 	<Item Name="type defs" Type="Folder">
 		<Item Name="CE14_cluster.ctl" Type="VI" URL="../type defs/CE14_cluster.ctl"/>
 		<Item Name="CE14_state.ctl" Type="VI" URL="../type defs/CE14_state.ctl"/>
+		<Item Name="CE14.data.ctl" Type="VI" URL="../type defs/CE14.data.ctl"/>
 	</Item>
 	<Item Name="docs" Type="Folder">
 		<Item Name="CE14 datasheet 160922.pdf" Type="Document" URL="../__docs/CE14 datasheet 160922.pdf"/>
@@ -26,7 +27,7 @@
 		<Item Name="CE14. Read_kW(subVI).vi" Type="VI" URL="../CE14. Read_kW(subVI).vi"/>
 		<Item Name="CE14. Read_PowerFactor(subVI).vi" Type="VI" URL="../CE14. Read_PowerFactor(subVI).vi"/>
 		<Item Name="CE14. Read_Voltage(subVI).vi" Type="VI" URL="../CE14. Read_Voltage(subVI).vi"/>
-		<Item Name="CE14_open handshake(subVI).vi" Type="VI" URL="../CE14_open handshake(subVI).vi"/>
+		<Item Name="CE14.open handshake(subVI).vi" Type="VI" URL="../CE14.open handshake(subVI).vi"/>
 	</Item>
 	<Item Name="tester" Type="Folder">
 		<Item Name="check COMport name(3onedata).vi" Type="VI" URL="../tester/check COMport name(3onedata).vi"/>

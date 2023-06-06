@@ -10,6 +10,7 @@
 		<Item Name="MB relays _InstrumentType.ctl" Type="VI" URL="../type defs/MB relays _InstrumentType.ctl"/>
 	</Item>
 	<Item Name="private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="demux1_10(x6)_encode.vi" Type="VI" URL="../demux1_10(x6)_encode.vi"/>
 		<Item Name="demux1_10(x6)_separated.vi" Type="VI" URL="../demux1_10(x6)_separated.vi"/>
 		<Item Name="MB_relay_01_encode.vi" Type="VI" URL="../MB_relay_01_encode.vi"/>
@@ -20,27 +21,32 @@
 		<Item Name="mux6-1(3wires)_encode.vi" Type="VI" URL="../mux6-1(3wires)_encode.vi"/>
 		<Item Name="5V enable_separated.vi" Type="VI" URL="../5V enable_separated.vi"/>
 		<Item Name="mux6_1(3 wires)_separated.vi" Type="VI" URL="../mux6_1(3 wires)_separated.vi"/>
+		<Item Name="SpareRelay(DPDT)_separated.vi" Type="VI" URL="../SpareRelay(DPDT)_separated.vi"/>
+		<Item Name="SpareRelay(SPDT)_encode.vi" Type="VI" URL="../SpareRelay(SPDT)_encode.vi"/>
 		<Item Name="mux10_1(x6)_encode.vi" Type="VI" URL="../mux10_1(x6)_encode.vi"/>
 		<Item Name="mux10_1(x6)_separated.vi" Type="VI" URL="../mux10_1(x6)_separated.vi"/>
 		<Item Name="SpareRelay_encode.vi" Type="VI" URL="../SpareRelay_encode.vi"/>
+		<Item Name="shortCircuits to MB01.vi" Type="VI" URL="../../../Libraries/Application/SubVIs/shortCircuits to MB01.vi"/>
 		<Item Name="SpareRelay_separated.vi" Type="VI" URL="../SpareRelay_separated.vi"/>
 		<Item Name="optos_indexing.vi" Type="VI" URL="../optos_indexing.vi"/>
 	</Item>
 	<Item Name="public" Type="Folder">
 		<Item Name="FGV_HoldingRegs.vi" Type="VI" URL="../FGV_HoldingRegs.vi"/>
-		<Item Name="inst.5V enable.vi" Type="VI" URL="../publics/inst.5V enable.vi"/>
+		<Item Name="inst.SC enable.vi" Type="VI" URL="../publics/inst.SC enable.vi"/>
 		<Item Name="inst.counter.vi" Type="VI" URL="../publics/inst.counter.vi"/>
 		<Item Name="inst.demux1.10(x6).vi" Type="VI" URL="../publics/inst.demux1.10(x6).vi"/>
-		<Item Name="inst.MB Relay01.vi" Type="VI" URL="../publics/inst.MB Relay01.vi"/>
+		<Item Name="inst.MB Relay01(eMICs).vi" Type="VI" URL="../publics/inst.MB Relay01(eMICs).vi"/>
 		<Item Name="inst.mux10.1(x6).vi" Type="VI" URL="../publics/inst.mux10.1(x6).vi"/>
 		<Item Name="inst.mux6.1(3wires).vi" Type="VI" URL="../publics/inst.mux6.1(3wires).vi"/>
 		<Item Name="inst.DMM (Current INPUT).vi" Type="VI" URL="../publics/inst.DMM (Current INPUT).vi"/>
 		<Item Name="inst.Open.vi" Type="VI" URL="../publics/inst.Open.vi"/>
 		<Item Name="inst.Optos.vi" Type="VI" URL="../publics/inst.Optos.vi"/>
-		<Item Name="inst.SpareRelay.vi" Type="VI" URL="../publics/inst.SpareRelay.vi"/>
+		<Item Name="inst.SpareRelays (DPDT).vi" Type="VI" URL="../publics/inst.SpareRelays (DPDT).vi"/>
+		<Item Name="inst.Close (SubVI).vi" Type="VI" URL="../inst.Close (SubVI).vi"/>
 	</Item>
 	<Item Name="testers" Type="Folder">
 		<Item Name="Turn a single relay ON_OFF.vi" Type="VI" URL="../Turn a single relay ON_OFF.vi"/>
 		<Item Name="MB demo test_v2.vi" Type="VI" URL="../examples/MB demo test_v2.vi"/>
+		<Item Name="MB test_v3.vi" Type="VI" URL="../examples/MB test_v3.vi"/>
 	</Item>
 </Library>
