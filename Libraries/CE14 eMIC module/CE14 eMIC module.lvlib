@@ -25,6 +25,7 @@
 				<Item Name="Open&amp;shakehand eMICs Argument--cluster.ctl" Type="VI" URL="../Open&amp;shakehand eMICs Argument--cluster.ctl"/>
 				<Item Name="Open&amp;shakehand eMICs (Reply Payload)--cluster.ctl" Type="VI" URL="../Open&amp;shakehand eMICs (Reply Payload)--cluster.ctl"/>
 				<Item Name="Read ACV, ACI, PF, KW Argument--cluster.ctl" Type="VI" URL="../Read ACV, ACI, PF, KW Argument--cluster.ctl"/>
+				<Item Name="CE14 Close Argument--cluster.ctl" Type="VI" URL="../CE14 Close Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -43,6 +44,7 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Open&amp;shakehand eMICs.vi" Type="VI" URL="../Open&amp;shakehand eMICs.vi"/>
 			<Item Name="Read ACV, ACI, PF, KW.vi" Type="VI" URL="../Read ACV, ACI, PF, KW.vi"/>
+			<Item Name="CE14 Close.vi" Type="VI" URL="../CE14 Close.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>

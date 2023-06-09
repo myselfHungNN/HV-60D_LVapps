@@ -21,6 +21,8 @@
 				<Item Name="MB01 Open Argument--cluster.ctl" Type="VI" URL="../MB01 Open Argument--cluster.ctl"/>
 				<Item Name="demux1-10 Argument--cluster.ctl" Type="VI" URL="../demux1-10 Argument--cluster.ctl"/>
 				<Item Name="MB01_eMICs Argument--cluster.ctl" Type="VI" URL="../MB01_eMICs Argument--cluster.ctl"/>
+				<Item Name="SC enable Argument--cluster.ctl" Type="VI" URL="../SC enable Argument--cluster.ctl"/>
+				<Item Name="MB01 Close Argument--cluster.ctl" Type="VI" URL="../MB01 Close Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -37,6 +39,8 @@
 			<Item Name="MB01 Open.vi" Type="VI" URL="../MB01 Open.vi"/>
 			<Item Name="demux1-10.vi" Type="VI" URL="../demux1-10.vi"/>
 			<Item Name="MB01_eMICs.vi" Type="VI" URL="../MB01_eMICs.vi"/>
+			<Item Name="SC enable.vi" Type="VI" URL="../SC enable.vi"/>
+			<Item Name="MB01 Close.vi" Type="VI" URL="../MB01 Close.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
