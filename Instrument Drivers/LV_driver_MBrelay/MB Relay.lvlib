@@ -28,6 +28,7 @@
 		<Item Name="SpareRelay_encode.vi" Type="VI" URL="../SpareRelay_encode.vi"/>
 		<Item Name="shortCircuits to MB01.vi" Type="VI" URL="../../../Libraries/Application/SubVIs/shortCircuits to MB01.vi"/>
 		<Item Name="SpareRelay_separated.vi" Type="VI" URL="../SpareRelay_separated.vi"/>
+		<Item Name="optos_indexing_v2.vi" Type="VI" URL="../optos_indexing_v2.vi"/>
 		<Item Name="optos_indexing.vi" Type="VI" URL="../optos_indexing.vi"/>
 	</Item>
 	<Item Name="public" Type="Folder">
