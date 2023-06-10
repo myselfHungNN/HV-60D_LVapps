@@ -57,8 +57,8 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Switches Module API.vi" Type="VI" URL="../Libraries/Switches Module/Test Switches Module API.vi"/>
 			<Item Name="Test MB 01 switches Module API.vi" Type="VI" URL="../Libraries/MB 01 switches Module/Test MB 01 switches Module API.vi"/>
-			<Item Name="Test CE14 eMIC module API.vi" Type="VI" URL="../Libraries/CE14 eMIC module/Test CE14 eMIC module API.vi"/>
 			<Item Name="Test DMM Module API.vi" Type="VI" URL="../Libraries/DMM Module/Test DMM Module API.vi"/>
+			<Item Name="Test CE14  Module API.vi" Type="VI" URL="../Libraries/CE14  Module/Test CE14  Module API.vi"/>
 		</Item>
 		<Item Name="DQMH Modules" Type="Folder">
 			<Item Name="DMM Module Module" Type="Folder">
@@ -70,8 +70,8 @@
 			<Item Name="MB switches Module" Type="Folder">
 				<Item Name="MB switches Module.lvlib" Type="Library" URL="../Libraries/Switches Module/MB switches Module.lvlib"/>
 			</Item>
-			<Item Name="CE14 eMIC module" Type="Folder">
-				<Item Name="CE14 eMIC module.lvlib" Type="Library" URL="../Libraries/CE14 eMIC module/CE14 eMIC module.lvlib"/>
+			<Item Name="CE14 module" Type="Folder">
+				<Item Name="CE14  Module.lvlib" Type="Library" URL="../Libraries/CE14  Module/CE14  Module.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="instruments_LVdriver" Type="Folder">
@@ -208,6 +208,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="CE14 eMIC module.lvlib" Type="Library" URL="../Libraries/CE14 eMIC module/CE14 eMIC module.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Application" Type="EXE">

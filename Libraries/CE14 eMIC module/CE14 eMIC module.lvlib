@@ -23,7 +23,7 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Get Module Execution Status Argument--cluster.ctl" Type="VI" URL="../Get Module Execution Status Argument--cluster.ctl"/>
 				<Item Name="Open&amp;shakehand eMICs Argument--cluster.ctl" Type="VI" URL="../Open&amp;shakehand eMICs Argument--cluster.ctl"/>
-				<Item Name="Open&amp;shakehand eMICs (Reply Payload)--cluster.ctl" Type="VI" URL="../Open&amp;shakehand eMICs (Reply Payload)--cluster.ctl"/>
+				<Item Name="Check eMIC connected (Reply Payload)--cluster.ctl" Type="VI" URL="../Check eMIC connected (Reply Payload)--cluster.ctl"/>
 				<Item Name="Read ACV, ACI, PF, KW Argument--cluster.ctl" Type="VI" URL="../Read ACV, ACI, PF, KW Argument--cluster.ctl"/>
 				<Item Name="CE14 Close Argument--cluster.ctl" Type="VI" URL="../CE14 Close Argument--cluster.ctl"/>
 			</Item>
