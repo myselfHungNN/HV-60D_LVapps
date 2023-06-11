@@ -18,6 +18,7 @@
 		<Item Name="ce14. cos phi.vi" Type="VI" URL="../ce14. cos phi.vi"/>
 		<Item Name="ce14.BCC.vi" Type="VI" URL="../ce14.BCC.vi"/>
 		<Item Name="Clear Timeout error(SubVI).vi" Type="VI" URL="../Clear Timeout error(SubVI).vi"/>
+		<Item Name="CE14. parameter Read (SubVI).vi" Type="VI" URL="../CE14. parameter Read (SubVI).vi"/>
 	</Item>
 	<Item Name="publics" Type="Folder">
 		<Item Name="CE14 Close Connection (SubVI).vi" Type="VI" URL="../CE14 Close Connection (SubVI).vi"/>

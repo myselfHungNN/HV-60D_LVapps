@@ -82,6 +82,9 @@
 			<Item Name="arduino_MB" Type="Folder">
 				<Item Name="Tester.vi" Type="VI" URL="../Instrument Drivers/LVdriver_74HC595N/Tester.vi"/>
 			</Item>
+			<Item Name="DMM LV Driver" Type="Folder">
+				<Item Name="DMM Read Dual Display.vi" Type="VI" URL="../Instrument Drivers/LVdriver_DMM/DMM Read Dual Display.vi"/>
+			</Item>
 			<Item Name="MB Relay.lvlib" Type="Library" URL="../Instrument Drivers/LV_driver_MBrelay/MB Relay.lvlib"/>
 			<Item Name="CE14_eMIC.lvlib" Type="Library" URL="../Instrument Drivers/LVdriver_CE14(eMIC)/CE14_eMIC.lvlib"/>
 		</Item>
