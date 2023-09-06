@@ -27,6 +27,8 @@
 				<Item Name="Read DCV_DCI Argument--cluster.ctl" Type="VI" URL="../Read DCV_DCI Argument--cluster.ctl"/>
 				<Item Name="Read DCV_DCI (Reply Payload)--cluster.ctl" Type="VI" URL="../Read DCV_DCI (Reply Payload)--cluster.ctl"/>
 				<Item Name="DMM Close Argument--cluster.ctl" Type="VI" URL="../DMM Close Argument--cluster.ctl"/>
+				<Item Name="DMM connect and reset Argument--cluster.ctl" Type="VI" URL="../DMM connect and reset Argument--cluster.ctl"/>
+				<Item Name="DMM reset Argument--cluster.ctl" Type="VI" URL="../DMM reset Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -45,6 +47,8 @@
 			<Item Name="DMM init.vi" Type="VI" URL="../DMM init.vi"/>
 			<Item Name="config channel.vi" Type="VI" URL="../config channel.vi"/>
 			<Item Name="DMM Close.vi" Type="VI" URL="../DMM Close.vi"/>
+			<Item Name="DMM connect and reset.vi" Type="VI" URL="../DMM connect and reset.vi"/>
+			<Item Name="DMM reset.vi" Type="VI" URL="../DMM reset.vi"/>
 		</Item>
 		<Item Name="Read DCV_DCI.vi" Type="VI" URL="../Read DCV_DCI.vi"/>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>

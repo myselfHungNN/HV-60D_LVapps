@@ -8,6 +8,7 @@
 		<Item Name="FGV data cluster.ctl" Type="VI" URL="../type defs/FGV data cluster.ctl"/>
 		<Item Name="FGV enum.ctl" Type="VI" URL="../type defs/FGV enum.ctl"/>
 		<Item Name="MB relays _InstrumentType.ctl" Type="VI" URL="../type defs/MB relays _InstrumentType.ctl"/>
+		<Item Name="Tester Cluster.ctl" Type="VI" URL="../type defs/Tester Cluster.ctl"/>
 	</Item>
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -27,18 +28,22 @@
 		<Item Name="mux10_1(x6)_separated.vi" Type="VI" URL="../mux10_1(x6)_separated.vi"/>
 		<Item Name="SpareRelay_encode.vi" Type="VI" URL="../SpareRelay_encode.vi"/>
 		<Item Name="shortCircuits to MB01.vi" Type="VI" URL="../../../Libraries/Application/SubVIs/shortCircuits to MB01.vi"/>
+		<Item Name="JIG_RESET_encode.vi" Type="VI" URL="../JIG_RESET_encode.vi"/>
 		<Item Name="SpareRelay_separated.vi" Type="VI" URL="../SpareRelay_separated.vi"/>
-		<Item Name="optos_indexing_v2.vi" Type="VI" URL="../optos_indexing_v2.vi"/>
-		<Item Name="optos_indexing.vi" Type="VI" URL="../optos_indexing.vi"/>
+		<Item Name="JIG_RESET_separated.vi" Type="VI" URL="../JIG_RESET_separated.vi"/>
+		<Item Name="optos_indexing_v1.vi" Type="VI" URL="../optos_indexing_v1.vi"/>
+		<Item Name="optos_indexing_V2.vi" Type="VI" URL="../optos_indexing_V2.vi"/>
 	</Item>
 	<Item Name="public" Type="Folder">
 		<Item Name="FGV_HoldingRegs.vi" Type="VI" URL="../FGV_HoldingRegs.vi"/>
+		<Item Name="inst.JIG_RESET.vi" Type="VI" URL="../publics/inst.JIG_RESET.vi"/>
 		<Item Name="inst.SC enable.vi" Type="VI" URL="../publics/inst.SC enable.vi"/>
 		<Item Name="inst.counter.vi" Type="VI" URL="../publics/inst.counter.vi"/>
 		<Item Name="inst.demux1.10(x6).vi" Type="VI" URL="../publics/inst.demux1.10(x6).vi"/>
 		<Item Name="inst.MB Relay01(eMICs).vi" Type="VI" URL="../publics/inst.MB Relay01(eMICs).vi"/>
 		<Item Name="inst.mux10.1(x6).vi" Type="VI" URL="../publics/inst.mux10.1(x6).vi"/>
 		<Item Name="inst.mux6.1(3wires).vi" Type="VI" URL="../publics/inst.mux6.1(3wires).vi"/>
+		<Item Name="inst.JIG_TRIGGER.vi" Type="VI" URL="../publics/inst.JIG_TRIGGER.vi"/>
 		<Item Name="inst.DMM (Current INPUT).vi" Type="VI" URL="../publics/inst.DMM (Current INPUT).vi"/>
 		<Item Name="inst.Open.vi" Type="VI" URL="../publics/inst.Open.vi"/>
 		<Item Name="inst.Optos.vi" Type="VI" URL="../publics/inst.Optos.vi"/>

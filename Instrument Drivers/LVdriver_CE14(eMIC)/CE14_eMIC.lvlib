@@ -21,6 +21,7 @@
 		<Item Name="CE14. parameter Read (SubVI).vi" Type="VI" URL="../CE14. parameter Read (SubVI).vi"/>
 	</Item>
 	<Item Name="publics" Type="Folder">
+		<Item Name="CE14.open handshake(subVI).vi" Type="VI" URL="../CE14.open handshake(subVI).vi"/>
 		<Item Name="CE14 Close Connection (SubVI).vi" Type="VI" URL="../CE14 Close Connection (SubVI).vi"/>
 		<Item Name="CE14. Read_Current(subVI).vi" Type="VI" URL="../CE14. Read_Current(subVI).vi"/>
 		<Item Name="CE14. Read_Freq(subVI).vi" Type="VI" URL="../CE14. Read_Freq(subVI).vi"/>
@@ -28,7 +29,6 @@
 		<Item Name="CE14. Read_kW(subVI).vi" Type="VI" URL="../CE14. Read_kW(subVI).vi"/>
 		<Item Name="CE14. Read_PowerFactor(subVI).vi" Type="VI" URL="../CE14. Read_PowerFactor(subVI).vi"/>
 		<Item Name="CE14. Read_Voltage(subVI).vi" Type="VI" URL="../CE14. Read_Voltage(subVI).vi"/>
-		<Item Name="CE14.open handshake(subVI).vi" Type="VI" URL="../CE14.open handshake(subVI).vi"/>
 	</Item>
 	<Item Name="tester" Type="Folder">
 		<Item Name="check COMport name(3onedata).vi" Type="VI" URL="../tester/check COMport name(3onedata).vi"/>

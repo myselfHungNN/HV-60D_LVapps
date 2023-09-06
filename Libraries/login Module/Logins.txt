@@ -1,0 +1,3 @@
+[Login]
+hanhdoduc=12345678,Do Duc Hanh
+hungnguyenngoc=12345678,Nguyen Ngoc Hung
