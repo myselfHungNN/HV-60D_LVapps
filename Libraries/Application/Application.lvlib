@@ -41,5 +41,7 @@
 		<Item Name="HW config.ctl" Type="VI" URL="../type defs/HW config.ctl"/>
 		<Item Name="Test states.ctl" Type="VI" URL="../Test states.ctl"/>
 	</Item>
+	<Item Name="reset DRV UI (SubVI).vi" Type="VI" URL="../SubVIs/reset DRV UI (SubVI).vi"/>
+	<Item Name="string log (SubVI).vi" Type="VI" URL="../SubVIs/string log (SubVI).vi"/>
 	<Item Name="Test DQMH modules.vi" Type="VI" URL="../Test DQMH modules.vi"/>
 </Library>

@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
-	<Property Name="CCSymbols" Type="Str">NO_HARDWARE,TRUE;</Property>
+	<Property Name="CCSymbols" Type="Str">NO_HARDWARE,TRUE;LOGGING,TRUE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -105,6 +105,8 @@
 		<Item Name="test_float.vi" Type="VI" URL="../Libraries/Application/test_float.vi"/>
 		<Item Name="DUT data Mode.ctl" Type="VI" URL="../Libraries/Application/SubVIs/DUT data Mode.ctl"/>
 		<Item Name="App state data.ctl" Type="VI" URL="../Libraries/Application/SubVIs/App state data.ctl"/>
+		<Item Name="Trigger cluster.ctl" Type="VI" URL="../Libraries/Application/SubVIs/Trigger cluster.ctl"/>
+		<Item Name="FGV milisec (subVI).vi" Type="VI" URL="../Libraries/Application/SubVIs/FGV milisec (subVI).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
