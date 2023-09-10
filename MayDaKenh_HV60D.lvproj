@@ -101,12 +101,7 @@
 			</Item>
 		</Item>
 		<Item Name="Application.lvlib" Type="Library" URL="../Libraries/Application/Application.lvlib"/>
-		<Item Name="Step data.ctl" Type="VI" URL="../Libraries/Application/SubVIs/Step data.ctl"/>
-		<Item Name="test_float.vi" Type="VI" URL="../Libraries/Application/test_float.vi"/>
-		<Item Name="DUT data Mode.ctl" Type="VI" URL="../Libraries/Application/SubVIs/DUT data Mode.ctl"/>
-		<Item Name="App state data.ctl" Type="VI" URL="../Libraries/Application/SubVIs/App state data.ctl"/>
-		<Item Name="Trigger cluster.ctl" Type="VI" URL="../Libraries/Application/SubVIs/Trigger cluster.ctl"/>
-		<Item Name="FGV milisec (subVI).vi" Type="VI" URL="../Libraries/Application/SubVIs/FGV milisec (subVI).vi"/>
+		<Item Name="Select DMM Current Range.vi" Type="VI" URL="../Libraries/Application/SubVIs/Select DMM Current Range.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>

@@ -16,6 +16,7 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="FGV Driver Data.vi" Type="VI" URL="../SubVIs/FGV Driver Data.vi"/>
+		<Item Name="View DRV data.vi" Type="VI" URL="../View DRV data.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -23,25 +24,32 @@
 	</Item>
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="App enquece.vi" Type="VI" URL="../SubVIs/App enquece.vi"/>
+		<Item Name="FGV milisec (subVI).vi" Type="VI" URL="../SubVIs/FGV milisec (subVI).vi"/>
 		<Item Name="FGV wait for 6 eMICs.vi" Type="VI" URL="../SubVIs/FGV wait for 6 eMICs.vi"/>
+		<Item Name="reset DRV UI (SubVI).vi" Type="VI" URL="../SubVIs/reset DRV UI (SubVI).vi"/>
+		<Item Name="string log (SubVI).vi" Type="VI" URL="../SubVIs/string log (SubVI).vi"/>
 		<Item Name="Test COMport Name.vi" Type="VI" URL="../SubVIs/Test COMport Name.vi"/>
+		<Item Name="test_float.vi" Type="VI" URL="../test_float.vi"/>
 		<Item Name="timing structure.vi" Type="VI" URL="../timing structure.vi"/>
 	</Item>
 	<Item Name="Type Definitions" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="App Data cluster.ctl" Type="VI" URL="../type defs/App Data cluster.ctl"/>
+		<Item Name="App state data.ctl" Type="VI" URL="../SubVIs/App state data.ctl"/>
 		<Item Name="App States.ctl" Type="VI" URL="../App States.ctl"/>
 		<Item Name="Application Data--cluster.ctl" Type="VI" URL="../Application Data--cluster.ctl"/>
 		<Item Name="DMM all config cluster.ctl" Type="VI" URL="../type defs/DMM all config cluster.ctl"/>
 		<Item Name="DMM config cluster.ctl" Type="VI" URL="../type defs/DMM config cluster.ctl"/>
 		<Item Name="DRV cluster.ctl" Type="VI" URL="../DRV cluster.ctl"/>
+		<Item Name="DUT data Mode.ctl" Type="VI" URL="../SubVIs/DUT data Mode.ctl"/>
 		<Item Name="eMIC response.ctl" Type="VI" URL="../eMIC response.ctl"/>
 		<Item Name="eMICs Cluster.ctl" Type="VI" URL="../eMICs Cluster.ctl"/>
 		<Item Name="FGV DRV data.ctl" Type="VI" URL="../SubVIs/FGV DRV data.ctl"/>
 		<Item Name="HW config.ctl" Type="VI" URL="../type defs/HW config.ctl"/>
+		<Item Name="Step data.ctl" Type="VI" URL="../SubVIs/Step data.ctl"/>
 		<Item Name="Test states.ctl" Type="VI" URL="../Test states.ctl"/>
+		<Item Name="Trigger cluster.ctl" Type="VI" URL="../SubVIs/Trigger cluster.ctl"/>
 	</Item>
-	<Item Name="reset DRV UI (SubVI).vi" Type="VI" URL="../SubVIs/reset DRV UI (SubVI).vi"/>
-	<Item Name="string log (SubVI).vi" Type="VI" URL="../SubVIs/string log (SubVI).vi"/>
+	<Item Name="Select DMM voltage range.vi" Type="VI" URL="../SubVIs/Select DMM voltage range.vi"/>
 	<Item Name="Test DQMH modules.vi" Type="VI" URL="../Test DQMH modules.vi"/>
 </Library>
