@@ -27,6 +27,8 @@
 		<Item Name="FGV milisec (subVI).vi" Type="VI" URL="../SubVIs/FGV milisec (subVI).vi"/>
 		<Item Name="FGV wait for 6 eMICs.vi" Type="VI" URL="../SubVIs/FGV wait for 6 eMICs.vi"/>
 		<Item Name="reset DRV UI (SubVI).vi" Type="VI" URL="../SubVIs/reset DRV UI (SubVI).vi"/>
+		<Item Name="Select DMM Current Range.vi" Type="VI" URL="../SubVIs/Select DMM Current Range.vi"/>
+		<Item Name="Select DMM voltage range.vi" Type="VI" URL="../SubVIs/Select DMM voltage range.vi"/>
 		<Item Name="string log (SubVI).vi" Type="VI" URL="../SubVIs/string log (SubVI).vi"/>
 		<Item Name="Test COMport Name.vi" Type="VI" URL="../SubVIs/Test COMport Name.vi"/>
 		<Item Name="test_float.vi" Type="VI" URL="../test_float.vi"/>
@@ -50,6 +52,5 @@
 		<Item Name="Test states.ctl" Type="VI" URL="../Test states.ctl"/>
 		<Item Name="Trigger cluster.ctl" Type="VI" URL="../SubVIs/Trigger cluster.ctl"/>
 	</Item>
-	<Item Name="Select DMM voltage range.vi" Type="VI" URL="../SubVIs/Select DMM voltage range.vi"/>
 	<Item Name="Test DQMH modules.vi" Type="VI" URL="../Test DQMH modules.vi"/>
 </Library>
