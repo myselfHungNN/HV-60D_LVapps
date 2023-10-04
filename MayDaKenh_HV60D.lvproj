@@ -90,10 +90,6 @@
 			</Item>
 		</Item>
 		<Item Name="User LVDriver" Type="Folder">
-			<Item Name="Read DRV Excel" Type="Folder">
-				<Item Name="DriveParameters.xlsx" Type="Document" URL="../Libraries/Read DRV excel/DriveParameters.xlsx"/>
-				<Item Name="ReadDriverParameters.vi" Type="VI" URL="../Libraries/Read DRV excel/ReadDriverParameters.vi"/>
-			</Item>
 			<Item Name="Login Module" Type="Folder">
 				<Item Name="Login.vi" Type="VI" URL="../Libraries/login Module/Login.vi"/>
 				<Item Name="Logins.txt" Type="Document" URL="../Libraries/login Module/Logins.txt"/>
@@ -287,29 +283,32 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A3D48F6E-64BC-45A6-ADEB-64083211F11E}</Property>
+				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
+				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/Application.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">HV60D_Apps.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/HV60D_Apps.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9023083D-94ED-4D15-AE4E-A7DF1311271B}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Application.lvlib/icon/ralaco.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F8AE9A5B-BEE9-4363-8A7F-5ECCA187941E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Application.lvlib/Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Application.lvlib/Test DQMH modules.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Hoc vien KTQS</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">Application</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">An Apps to control HV60Ds - multichannels Tester</Property>
+				<Property Name="TgtF_internalName" Type="Str">HV60D Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023</Property>
 				<Property Name="TgtF_productName" Type="Str">HV-60D Apps</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{6113D017-51FE-4C02-9632-17FD25301CC4}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">HV60D_Apps.exe</Property>
 			</Item>
 		</Item>
 	</Item>

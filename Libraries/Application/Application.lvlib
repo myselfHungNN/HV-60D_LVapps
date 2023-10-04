@@ -12,17 +12,28 @@
 		<Item Name="HW Config.vi" Type="VI" URL="../SubVIs/HW Config.vi"/>
 	</Item>
 	<Item Name="DUT VIs" Type="Folder">
+		<Item Name="DUT Test 2.vi" Type="VI" URL="../DUT Test 2.vi"/>
 		<Item Name="DUT Test.vi" Type="VI" URL="../DUT Test.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="FGV Driver Data.vi" Type="VI" URL="../SubVIs/FGV Driver Data.vi"/>
+		<Item Name="FGV DRV stand.vi" Type="VI" URL="../SubVIs/FGV DRV stand.vi"/>
 		<Item Name="View DRV data.vi" Type="VI" URL="../View DRV data.vi"/>
+	</Item>
+	<Item Name="icon" Type="Folder">
+		<Item Name="ElectricFixer.ico" Type="Document" URL="../../../icon/ElectricFixer.ico"/>
+		<Item Name="maintenance.ico" Type="Document" URL="../../../icon/maintenance.ico"/>
+		<Item Name="ralaco.ico" Type="Document" URL="../../../icon/ralaco.ico"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Application Name--constant.vi" Type="VI" URL="../Application Name--constant.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
+		<Item Name="Read DRV Excel" Type="Folder">
+			<Item Name="DriveParameters.xlsx" Type="Document" URL="../../Read DRV excel/DriveParameters.xlsx"/>
+			<Item Name="ReadDriverParameters.vi" Type="VI" URL="../../Read DRV excel/ReadDriverParameters.vi"/>
+		</Item>
 		<Item Name="App enquece.vi" Type="VI" URL="../SubVIs/App enquece.vi"/>
 		<Item Name="FGV milisec (subVI).vi" Type="VI" URL="../SubVIs/FGV milisec (subVI).vi"/>
 		<Item Name="FGV wait for 6 eMICs.vi" Type="VI" URL="../SubVIs/FGV wait for 6 eMICs.vi"/>
@@ -42,7 +53,9 @@
 		<Item Name="Application Data--cluster.ctl" Type="VI" URL="../Application Data--cluster.ctl"/>
 		<Item Name="DMM all config cluster.ctl" Type="VI" URL="../type defs/DMM all config cluster.ctl"/>
 		<Item Name="DMM config cluster.ctl" Type="VI" URL="../type defs/DMM config cluster.ctl"/>
+		<Item Name="DRV cluster 2.ctl" Type="VI" URL="../DRV cluster 2.ctl"/>
 		<Item Name="DRV cluster.ctl" Type="VI" URL="../DRV cluster.ctl"/>
+		<Item Name="DRV stand.ctl" Type="VI" URL="../DRV stand.ctl"/>
 		<Item Name="DUT data Mode.ctl" Type="VI" URL="../SubVIs/DUT data Mode.ctl"/>
 		<Item Name="eMIC response.ctl" Type="VI" URL="../eMIC response.ctl"/>
 		<Item Name="eMICs Cluster.ctl" Type="VI" URL="../eMICs Cluster.ctl"/>

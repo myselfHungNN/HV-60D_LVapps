@@ -36,6 +36,7 @@
 	</Item>
 	<Item Name="public" Type="Folder">
 		<Item Name="FGV_HoldingRegs.vi" Type="VI" URL="../FGV_HoldingRegs.vi"/>
+		<Item Name="inst.InitialiseFGV.vi" Type="VI" URL="../publics/inst.InitialiseFGV.vi"/>
 		<Item Name="inst.JIG_RESET.vi" Type="VI" URL="../publics/inst.JIG_RESET.vi"/>
 		<Item Name="inst.SC enable.vi" Type="VI" URL="../publics/inst.SC enable.vi"/>
 		<Item Name="inst.counter.vi" Type="VI" URL="../publics/inst.counter.vi"/>
@@ -51,8 +52,9 @@
 		<Item Name="inst.Close (SubVI).vi" Type="VI" URL="../inst.Close (SubVI).vi"/>
 	</Item>
 	<Item Name="testers" Type="Folder">
-		<Item Name="Turn a single relay ON_OFF.vi" Type="VI" URL="../Turn a single relay ON_OFF.vi"/>
+		<Item Name="Test a single relay.vi" Type="VI" URL="../Test a single relay.vi"/>
 		<Item Name="MB demo test_v2.vi" Type="VI" URL="../examples/MB demo test_v2.vi"/>
 		<Item Name="MB test_v3.vi" Type="VI" URL="../examples/MB test_v3.vi"/>
+		<Item Name="Test_Arduino_JIG.vi" Type="VI" URL="../examples/Test_Arduino_JIG.vi"/>
 	</Item>
 </Library>
