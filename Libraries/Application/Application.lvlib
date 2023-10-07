@@ -31,6 +31,7 @@
 	</Item>
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Read DRV Excel" Type="Folder">
+			<Item Name="Decode DRV stand (SubVI).vi" Type="VI" URL="../../Read DRV excel/Decode DRV stand (SubVI).vi"/>
 			<Item Name="DriveParameters.xlsx" Type="Document" URL="../../Read DRV excel/DriveParameters.xlsx"/>
 			<Item Name="ReadDriverParameters.vi" Type="VI" URL="../../Read DRV excel/ReadDriverParameters.vi"/>
 		</Item>

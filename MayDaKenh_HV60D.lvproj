@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
-	<Property Name="CCSymbols" Type="Str">NO_HARDWARE,FALSE;LOGGING,TRUE;DEBUGGING,FALSE;</Property>
+	<Property Name="CCSymbols" Type="Str">NO_HARDWARE,TRUE;LOGGING,TRUE;DEBUGGING,FALSE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
