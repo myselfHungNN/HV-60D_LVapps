@@ -66,5 +66,6 @@
 		<Item Name="Test states.ctl" Type="VI" URL="../Test states.ctl"/>
 		<Item Name="Trigger cluster.ctl" Type="VI" URL="../SubVIs/Trigger cluster.ctl"/>
 	</Item>
+	<Item Name="progress string(SubVI).vi" Type="VI" URL="../SubVIs/progress string(SubVI).vi"/>
 	<Item Name="Test DQMH modules.vi" Type="VI" URL="../Test DQMH modules.vi"/>
 </Library>
