@@ -36,6 +36,7 @@
 			<Item Name="ReadDriverParameters.vi" Type="VI" URL="../../Read DRV excel/ReadDriverParameters.vi"/>
 		</Item>
 		<Item Name="App enquece.vi" Type="VI" URL="../SubVIs/App enquece.vi"/>
+		<Item Name="FGV Init phase.vi" Type="VI" URL="../SubVIs/FGV Init phase.vi"/>
 		<Item Name="FGV milisec (subVI).vi" Type="VI" URL="../SubVIs/FGV milisec (subVI).vi"/>
 		<Item Name="FGV wait for 6 eMICs.vi" Type="VI" URL="../SubVIs/FGV wait for 6 eMICs.vi"/>
 		<Item Name="reset DRV UI (SubVI).vi" Type="VI" URL="../SubVIs/reset DRV UI (SubVI).vi"/>
