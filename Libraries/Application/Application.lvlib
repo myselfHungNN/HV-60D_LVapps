@@ -39,6 +39,7 @@
 		<Item Name="FGV Init phase.vi" Type="VI" URL="../SubVIs/FGV Init phase.vi"/>
 		<Item Name="FGV milisec (subVI).vi" Type="VI" URL="../SubVIs/FGV milisec (subVI).vi"/>
 		<Item Name="FGV wait for 6 eMICs.vi" Type="VI" URL="../SubVIs/FGV wait for 6 eMICs.vi"/>
+		<Item Name="progress string(SubVI).vi" Type="VI" URL="../SubVIs/progress string(SubVI).vi"/>
 		<Item Name="reset DRV UI (SubVI).vi" Type="VI" URL="../SubVIs/reset DRV UI (SubVI).vi"/>
 		<Item Name="Select DMM Current Range.vi" Type="VI" URL="../SubVIs/Select DMM Current Range.vi"/>
 		<Item Name="Select DMM voltage range.vi" Type="VI" URL="../SubVIs/Select DMM voltage range.vi"/>
@@ -67,6 +68,5 @@
 		<Item Name="Test states.ctl" Type="VI" URL="../Test states.ctl"/>
 		<Item Name="Trigger cluster.ctl" Type="VI" URL="../SubVIs/Trigger cluster.ctl"/>
 	</Item>
-	<Item Name="progress string(SubVI).vi" Type="VI" URL="../SubVIs/progress string(SubVI).vi"/>
-	<Item Name="Test DQMH modules.vi" Type="VI" URL="../Test DQMH modules.vi"/>
+	<Item Name="main(Test DQMH modules).vi" Type="VI" URL="../main(Test DQMH modules).vi"/>
 </Library>
