@@ -62,18 +62,10 @@
 			<Item Name="Test CE14_v2 API.vi" Type="VI" URL="../Libraries/v2_CE14/Test CE14_v2 API.vi"/>
 		</Item>
 		<Item Name="DQMH Modules" Type="Folder">
-			<Item Name="CE14_v2 Module" Type="Folder">
-				<Item Name="CE14_v2.lvlib" Type="Library" URL="../Libraries/v2_CE14/CE14_v2.lvlib"/>
-			</Item>
-			<Item Name="DMM Module Module" Type="Folder">
-				<Item Name="DMM Module.lvlib" Type="Library" URL="../Libraries/DMM Module/DMM Module.lvlib"/>
-			</Item>
-			<Item Name="MB01 switches Module" Type="Folder">
-				<Item Name="MB 01 switches Module.lvlib" Type="Library" URL="../Libraries/MB 01 switches Module/MB 01 switches Module.lvlib"/>
-			</Item>
-			<Item Name="MB switches Module" Type="Folder">
-				<Item Name="MB switches Module.lvlib" Type="Library" URL="../Libraries/Switches Module/MB switches Module.lvlib"/>
-			</Item>
+			<Item Name="CE14_v2.lvlib" Type="Library" URL="../Libraries/v2_CE14/CE14_v2.lvlib"/>
+			<Item Name="DMM Module.lvlib" Type="Library" URL="../Libraries/DMM Module/DMM Module.lvlib"/>
+			<Item Name="MB 01 switches Module.lvlib" Type="Library" URL="../Libraries/MB 01 switches Module/MB 01 switches Module.lvlib"/>
+			<Item Name="MB switches Module.lvlib" Type="Library" URL="../Libraries/Switches Module/MB switches Module.lvlib"/>
 		</Item>
 		<Item Name="Instruments_LVdriver" Type="Folder">
 			<Item Name="arduino_MB" Type="Folder">
@@ -257,6 +249,7 @@
 				<Item Name="Handle Open Word or Excel File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Toolkit/Handle Open Word or Excel File.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="DMM4.lvlib" Type="Library" URL="/&lt;instrlib&gt;/DMM4/DMM4.lvlib"/>
