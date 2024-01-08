@@ -45,8 +45,6 @@
 		<Item Name="Select DMM voltage range.vi" Type="VI" URL="../SubVIs/Select DMM voltage range.vi"/>
 		<Item Name="string log (SubVI).vi" Type="VI" URL="../SubVIs/string log (SubVI).vi"/>
 		<Item Name="Test COMport Name.vi" Type="VI" URL="../SubVIs/Test COMport Name.vi"/>
-		<Item Name="test_float.vi" Type="VI" URL="../test_float.vi"/>
-		<Item Name="timing structure.vi" Type="VI" URL="../timing structure.vi"/>
 	</Item>
 	<Item Name="Type Definitions" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
