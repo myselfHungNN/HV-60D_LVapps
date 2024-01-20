@@ -250,6 +250,7 @@
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="DMM4.lvlib" Type="Library" URL="/&lt;instrlib&gt;/DMM4/DMM4.lvlib"/>
@@ -280,7 +281,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{A3D48F6E-64BC-45A6-ADEB-64083211F11E}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HV60D_Apps.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/HV60D_Apps.exe</Property>
@@ -290,10 +291,10 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Application.lvlib/icon/ralaco.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F8AE9A5B-BEE9-4363-8A7F-5ECCA187941E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{36BA2164-356A-4F2D-B02E-25FEE0FE1DE0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Application.lvlib/Test DQMH modules.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Application.lvlib/main(Test DQMH modules).vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
