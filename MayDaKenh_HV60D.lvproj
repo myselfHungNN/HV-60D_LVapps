@@ -67,7 +67,7 @@
 			<Item Name="MB 01 switches Module.lvlib" Type="Library" URL="../Libraries/MB 01 switches Module/MB 01 switches Module.lvlib"/>
 			<Item Name="MB switches Module.lvlib" Type="Library" URL="../Libraries/Switches Module/MB switches Module.lvlib"/>
 		</Item>
-		<Item Name="Instruments_LVdriver" Type="Folder">
+		<Item Name="LVdriver_Instruments" Type="Folder">
 			<Item Name="arduino_MB" Type="Folder">
 				<Item Name="Tester.vi" Type="VI" URL="../Instrument Drivers/LVdriver_74HC595N/Tester.vi"/>
 			</Item>
@@ -81,7 +81,7 @@
 				<Item Name="CE14_eMIC.lvlib" Type="Library" URL="../Instrument Drivers/LVdriver_CE14(eMIC)/CE14_eMIC.lvlib"/>
 			</Item>
 		</Item>
-		<Item Name="User LVDriver" Type="Folder">
+		<Item Name="LVDriver_User" Type="Folder">
 			<Item Name="Login Module" Type="Folder">
 				<Item Name="Login.vi" Type="VI" URL="../Libraries/login Module/Login.vi"/>
 				<Item Name="Logins.txt" Type="Document" URL="../Libraries/login Module/Logins.txt"/>
@@ -281,17 +281,17 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{A3D48F6E-64BC-45A6-ADEB-64083211F11E}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">HV60D_Apps.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/HV60D_Apps.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">HV60D_App.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/HV60D_App.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Application.lvlib/icon/ralaco.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{36BA2164-356A-4F2D-B02E-25FEE0FE1DE0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{59179831-26A8-4F1A-844D-9CE7DDC22164}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Application.lvlib/main(Test DQMH modules).vi</Property>
@@ -304,7 +304,132 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023</Property>
 				<Property Name="TgtF_productName" Type="Str">HV-60D Apps</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{6113D017-51FE-4C02-9632-17FD25301CC4}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">HV60D_Apps.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">HV60D_App.exe</Property>
+			</Item>
+			<Item Name="My Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">MayDaKenh_HV60D</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{E39D34A9-9F96-4021-B794-01929C9F7C91}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[1].name" Type="Str">report</Property>
+				<Property Name="Destination[1].parent" Type="Str">{E39D34A9-9F96-4021-B794-01929C9F7C91}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{2272C0BC-7975-4AA7-900D-385C9F7FBF5D}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[1].unlock" Type="Bool">true</Property>
+				<Property Name="Destination[2].name" Type="Str">config</Property>
+				<Property Name="Destination[2].parent" Type="Str">{E39D34A9-9F96-4021-B794-01929C9F7C91}</Property>
+				<Property Name="Destination[2].tag" Type="Str">{830FDD58-51D6-49D2-B8E8-26C02FFDFA53}</Property>
+				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[2].unlock" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{AD0D6322-6E99-4244-BF1E-F2FBB67C70B2}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI-Serial Runtime 18.5</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{01D82F43-B48D-46FF-8601-FC4FAAE20F41}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{EDF95F83-017A-4425-8F94-63FF8533A5EA}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI-VISA Runtime 18.5</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{8C735B52-FDDE-4C24-AE2E-D6D6045F3D64}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2018 SP1</Property>
+				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI LabVIEW Runtime 2018 SP1 Non-English Support.</Property>
+				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{3C68D03D-EF38-41B5-9977-E27520759DD6}</Property>
+				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[2].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[10].productName" Type="Str">NI mDNS Responder 17.0</Property>
+				<Property Name="DistPart[2].SoftDep[10].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[2].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[11].productName" Type="Str">NI Deployment Framework 2018</Property>
+				<Property Name="DistPart[2].SoftDep[11].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[2].SoftDep[12].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[12].productName" Type="Str">NI Error Reporting 2018</Property>
+				<Property Name="DistPart[2].SoftDep[12].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">Math Kernel Libraries 2018</Property>
+				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
+				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI Logos 18.1</Property>
+				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI TDM Streaming 18.0</Property>
+				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2018</Property>
+				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
+				<Property Name="DistPart[2].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[7].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2018</Property>
+				<Property Name="DistPart[2].SoftDep[7].upgradeCode" Type="Str">{EF4708F6-5A34-4DBA-B12B-79CC2004E20B}</Property>
+				<Property Name="DistPart[2].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[8].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[2].SoftDep[8].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[2].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[9].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[2].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[2].SoftDepCount" Type="Int">13</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{3B195EBF-4A09-46E6-8EAD-931568C1344C}</Property>
+				<Property Name="DistPartCount" Type="Int">3</Property>
+				<Property Name="INST_author" Type="Str">mta.edu.vn</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/MayDaKenh_HV60D/My Installer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{E39D34A9-9F96-4021-B794-01929C9F7C91}</Property>
+				<Property Name="INST_installerName" Type="Str">install.exe</Property>
+				<Property Name="INST_productName" Type="Str">MayDaKenh_HV60D</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">18018001</Property>
+				<Property Name="MSI_arpCompany" Type="Str">mta.edu.vn</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{FA68F04D-E187-4F8D-A227-E3298167C1BE}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{15C7306E-5430-4EA2-88B9-3D2EDD50E191}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{E39D34A9-9F96-4021-B794-01929C9F7C91}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{E39D34A9-9F96-4021-B794-01929C9F7C91}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">HV60D_Apps.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">HV60D_Apps</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">MayDaKenh_HV60D</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">HV60D_Apps</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str">MayDaKenh_HV60D</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{6113D017-51FE-4C02-9632-17FD25301CC4}</Property>
+				<Property Name="Source[0].File[1].dest" Type="Str">{E39D34A9-9F96-4021-B794-01929C9F7C91}</Property>
+				<Property Name="Source[0].File[1].name" Type="Str">HV60D_Apps.ini</Property>
+				<Property Name="Source[0].File[1].tag" Type="Str">{2DAC7B8A-DE9A-43E7-9C19-6238DAF455BE}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">Application</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Application</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="Source[1].dest" Type="Str">{830FDD58-51D6-49D2-B8E8-26C02FFDFA53}</Property>
+				<Property Name="Source[1].name" Type="Str">HV-60D.INI</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/Application.lvlib/ConfigINI/HV-60D.INI</Property>
+				<Property Name="Source[1].type" Type="Str">File</Property>
+				<Property Name="Source[1].unlock" Type="Bool">true</Property>
+				<Property Name="Source[2].dest" Type="Str">{830FDD58-51D6-49D2-B8E8-26C02FFDFA53}</Property>
+				<Property Name="Source[2].name" Type="Str">DriveParameters.xlsx</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/Application.lvlib/subVIs/Read DRV Excel/DriveParameters.xlsx</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="Source[2].unlock" Type="Bool">true</Property>
+				<Property Name="Source[3].dest" Type="Str">{830FDD58-51D6-49D2-B8E8-26C02FFDFA53}</Property>
+				<Property Name="Source[3].name" Type="Str">Logins.txt</Property>
+				<Property Name="Source[3].tag" Type="Ref">/My Computer/LVDriver_User/Login Module/Logins.txt</Property>
+				<Property Name="Source[3].type" Type="Str">File</Property>
+				<Property Name="Source[3].unlock" Type="Bool">true</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
 		</Item>
 	</Item>
