@@ -1,0 +1,18 @@
+00022963
+60
+Test Shorted Circuits
+Timer Start
+Test Channel 1
+Test Channel 2
+Test Channel 3
+Test Channel 4
+Test Channel 5
+Test Channel 6
+Test Channel 7
+Test Channel 8
+Test Channel 9
+Test Channel 10
+Timer Stop
+MEAS.AllRelaysOFF
+MEAS.Reset JIG
+Apps.UI Update 2
