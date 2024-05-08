@@ -1,8 +1,11 @@
 00031816
-2
+19
 Test Shorted Circuits
 Timer Start
-Test Channel 10B
+Test Channel 7
+Test Channel 8
+Test Channel 9
+Test Channel 10A
 Timer Stop
 MEAS.AllRelaysOFF
 MEAS.Reset JIG

@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
-	<Property Name="CCSymbols" Type="Str">NO_HARDWARE,TRUE;LOGGING,TRUE;DEBUGGING,FALSE;</Property>
+	<Property Name="CCSymbols" Type="Str">NO_HARDWARE,FALSE;LOGGING,TRUE;DEBUGGING,FALSE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -282,7 +282,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{A3D48F6E-64BC-45A6-ADEB-64083211F11E}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HV60D_App.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/HV60D_App.exe</Property>
@@ -292,7 +292,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Application.lvlib/icon/ralaco.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{59179831-26A8-4F1A-844D-9CE7DDC22164}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E7E5DDE9-5E88-46AD-83B8-0E5D4B655DA3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Application.lvlib/main(Test DQMH modules).vi</Property>
