@@ -1,5 +1,6 @@
 00040779
 60
+100
 Test Shorted Circuits
 Timer Start
 Test Channel 1

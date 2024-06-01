@@ -1,10 +1,8 @@
 0035647
-32
+14
+1500
 Test Shorted Circuits
 Timer Start
-Test Channel 5
-Test Channel 6
-Test Channel 7
 Test Channel 8
 Test Channel 9
 Test Channel 10B

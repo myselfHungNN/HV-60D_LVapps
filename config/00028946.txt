@@ -1,5 +1,6 @@
 00028946
 15
+100
 Test Shorted Circuits
 Timer Start
 Test Channel 8

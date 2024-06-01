@@ -1,5 +1,6 @@
 00032982
 21
+100
 Test Shorted Circuits
 Timer Start
 Test Channel 7

@@ -1,5 +1,6 @@
 00026890
 36
+100
 Test Shorted Circuits
 Timer Start
 Test Channel 5
