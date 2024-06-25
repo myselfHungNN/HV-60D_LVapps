@@ -45,7 +45,6 @@
 			<Item Name="ReadDriverParameters.vi" Type="VI" URL="../../Read DRV excel/ReadDriverParameters.vi"/>
 		</Item>
 		<Item Name="App enquece.vi" Type="VI" URL="../SubVIs/App enquece.vi"/>
-		<Item Name="Create TXT file.vi" Type="VI" URL="../../../config/Create TXT file.vi"/>
 		<Item Name="eMIC_calibration.vi" Type="VI" URL="../SubVIs/eMIC_calibration.vi"/>
 		<Item Name="FGV _Operator Name.vi" Type="VI" URL="../FGV _Operator Name.vi"/>
 		<Item Name="FGV Init phase.vi" Type="VI" URL="../SubVIs/FGV Init phase.vi"/>
@@ -53,13 +52,14 @@
 		<Item Name="FGV SapID.vi" Type="VI" URL="../../Read DRV excel/FGV SapID.vi"/>
 		<Item Name="FGV wait for 6 eMICs.vi" Type="VI" URL="../SubVIs/FGV wait for 6 eMICs.vi"/>
 		<Item Name="find Index and length.vi" Type="VI" URL="../SubVIs/find Index and length.vi"/>
-		<Item Name="open TXT file.vi" Type="VI" URL="../../../config/open TXT file.vi"/>
+		<Item Name="NaN (SubVI).vi" Type="VI" URL="../NaN (SubVI).vi"/>
 		<Item Name="progress string(SubVI).vi" Type="VI" URL="../SubVIs/progress string(SubVI).vi"/>
 		<Item Name="reset DRV UI (SubVI).vi" Type="VI" URL="../SubVIs/reset DRV UI (SubVI).vi"/>
 		<Item Name="Select DMM Current Range.vi" Type="VI" URL="../SubVIs/Select DMM Current Range.vi"/>
 		<Item Name="Select DMM voltage range.vi" Type="VI" URL="../SubVIs/Select DMM voltage range.vi"/>
 		<Item Name="string log (SubVI).vi" Type="VI" URL="../SubVIs/string log (SubVI).vi"/>
 		<Item Name="Test COMport Name.vi" Type="VI" URL="../SubVIs/Test COMport Name.vi"/>
+		<Item Name="Test UI.vi" Type="VI" URL="../SubVIs/Test UI.vi"/>
 	</Item>
 	<Item Name="Type Definitions" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -83,5 +83,4 @@
 	</Item>
 	<Item Name="main(Test DQMH modules).bak.vi" Type="VI" URL="../main(Test DQMH modules).bak.vi"/>
 	<Item Name="main(Test DQMH modules).vi" Type="VI" URL="../main(Test DQMH modules).vi"/>
-	<Item Name="NaN (SubVI).vi" Type="VI" URL="../NaN (SubVI).vi"/>
 </Library>

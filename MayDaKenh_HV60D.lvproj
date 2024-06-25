@@ -89,8 +89,6 @@
 			</Item>
 		</Item>
 		<Item Name="Application.lvlib" Type="Library" URL="../Libraries/Application/Application.lvlib"/>
-		<Item Name="get BIOS number.vi" Type="VI" URL="../../../../../../2022_R60_launcher_hungNN/R60(detaiNN)/get BIOS number.vi"/>
-		<Item Name="Test UI.vi" Type="VI" URL="../Libraries/Application/SubVIs/Test UI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
