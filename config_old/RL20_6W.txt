@@ -1,0 +1,11 @@
+RL20_6W
+10
+1000
+Test Shorted Circuits
+Timer Start
+Test Channel 9
+Test Channel 10D
+Timer Stop
+MEAS.AllRelaysOFF
+MEAS.Reset JIG
+Apps.UI Update 2

@@ -1,0 +1,14 @@
+RL36_6W
+27
+1000
+Test Shorted Circuits
+Timer Start
+Test Channel 6
+Test Channel 7
+Test Channel 8
+Test Channel 9
+Test Channel 10C
+Timer Stop
+MEAS.AllRelaysOFF
+MEAS.Reset JIG
+Apps.UI Update 2

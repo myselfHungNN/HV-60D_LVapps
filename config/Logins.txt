@@ -3,5 +3,7 @@ hanhdoduc=12345678,Do Duc Hanh
 hungnguyenngoc=12345678,Nguyen Ngoc Hung
 tester=1234,__Tester
 tan=1234,Nguyen Van Tan
+user1 = 1234, Nguyen van User1
+user2 = 1234, Tran Van User2
 [default]
 tan=1234,Nguyen Van Tan

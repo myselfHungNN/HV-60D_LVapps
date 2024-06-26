@@ -1,13 +1,12 @@
 RL36_6W
 27
-1000
-Test Shorted Circuits
+1500
 Timer Start
-Test Channel 6
-Test Channel 7
-Test Channel 8
-Test Channel 9
-Test Channel 10C
+Test Channel 1
+Test Channel 2
+Test Channel 3
+Test Channel 4
+Test Channel 5C
 Timer Stop
 MEAS.AllRelaysOFF
 MEAS.Reset JIG

@@ -1,7 +1,6 @@
 00039185
 60
-100
-Test Shorted Circuits
+1500
 Timer Start
 Test Channel 1
 Test Channel 2

@@ -3,9 +3,9 @@
 100
 Test Shorted Circuits
 Timer Start
-Test Channel 8
-Test Channel 9
-Test Channel 10D
+Test Channel 1
+Test Channel 2
+Test Channel 3D
 Timer Stop
 MEAS.AllRelaysOFF
 MEAS.Reset JIG
